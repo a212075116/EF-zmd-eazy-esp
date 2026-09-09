@@ -60,10 +60,10 @@ x86_64-w64-mingw32-cmake -S . -B build && cmake --build build
 - ImGui + D3D9 hook 版内嵌覆盖层（替换 GDI，解决 colorkey 边缘锯齿）
 
 ## Credits
-1. **[DeftSolutions's IL2CPP-Dumper](https://github.com/DeftSolutions-dev/IL2CPP-Dumper)**
+- **[DeftSolutions's IL2CPP-Dumper](https://github.com/DeftSolutions-dev/IL2CPP-Dumper)**
 
 
 ## 个人吐槽
-1.这个项目全程为vibe coding快速实现。注入的方式是基于fork了IL2CPP-Dumper并进行改进而实现。
-2.由于AI很喜欢添油加醋，且瞻前顾后，容易为了完成我提供的目标和对上我的信息。而把项目写得看着就像是失忆的人写得似的。。。。
-3.使用Agent工具Deepseek harness搭载Qwen 3.8 flash完成
+- 1.这个项目全程为vibe coding快速实现。注入的方式是基于fork了IL2CPP-Dumper并进行改进而实现。
+- 2.由于AI很喜欢添油加醋，且瞻前顾后，容易为了完成我提供的目标和对上我的信息。而把项目写得看着就像是失忆的人写得似的。。。。
+- 3.使用Agent工具Deepseek harness搭载Qwen 3.8 flash完成
